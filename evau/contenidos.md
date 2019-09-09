@@ -26,8 +26,7 @@
 
 # Estadística y Probabilidad
 
--Sucesos. Asignación de probabilidades a sucesos mediante la regla de Laplace y a partir de su frecuencia relativa.
-Axiomática de Kolmogorov.
+- Sucesos. Asignación de probabilidades a sucesos mediante la regla de Laplace y a partir de su frecuencia relativa. Axiomática de Kolmogorov.
 - Aplicación de la combinatoria al cálculo de probabilidades.
 - Experimentos simples y compuestos. Probabilidad condicionada. Dependencia e independencia de sucesos.
 - Teoremas de la probabilidad total y de Bayes. Probabilidades iniciales y finales y verosimilitud de un suceso.
