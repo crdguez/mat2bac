@@ -1,4 +1,4 @@
-## Números y álgebra
+## Números y álgebra (¿3 puntos?)
 
 - Estudio de las matrices como herramienta para manejar y operar con datos estructurados en tablas y grafos.
 - Clasificación de matrices. Operaciones.
@@ -9,7 +9,7 @@
 - Representación matricial de un sistema: discusión y resolución de sistemas de ecuaciones lineales. Método de Gauss. Regla de Cramer. Aplicación a la resolución de problemas.
 
 
-# Análisis
+# Análisis (¿4 puntos?)
 
 - Límite de una función en un punto y en el infinito. Continuidad de una función. Tipos de discontinuidad. Teorema de Bolzano.
 - Función derivada. Teoremas de Rolle y del valor medio. La regla de L’Hôpital. Aplicación al cálculo de límites.
@@ -17,14 +17,14 @@
 - Primitiva de una función. La integral indefinida. Técnicas elementales para el cálculo de primitivas.
 - La integral definida. Teoremas del valor medio y fundamental del cálculo integral. Aplicación al cálculo de áreas de regiones planas.
 
-# Geometría
+# Geometría (¿1,5 puntos?)
 
 - Vectores en el espacio tridimensional. Producto escalar, vectorial y mixto. Significado geométrico.
 - Ecuaciones de la recta y el plano en el espacio.
 - Posiciones relativas (incidencia, paralelismo y perpendicularidad entre rectas y planos).
 - Propiedades métricas (cálculo de ángulos, distancias, áreas y volúmenes).
 
-# Estadística y Probabilidad
+# Estadística y Probabilidad (¿1,5 puntos?)
 
 - Sucesos. Asignación de probabilidades a sucesos mediante la regla de Laplace y a partir de su frecuencia relativa. Axiomática de Kolmogorov.
 - Aplicación de la combinatoria al cálculo de probabilidades.
