@@ -5,4 +5,4 @@ Mis recursos de 2º de bachillerato CIT:
 
 ## Análisis
 
-- [Funciones en geogebra](https://ggbm.at/aabgby5a)
+- [Ejercicios de análisis](https://github.com/crdguez/mat2bac_cit/tree/master/ejercicios/analisis)
