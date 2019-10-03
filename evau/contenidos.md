@@ -19,6 +19,9 @@
 - Primitiva de una función. La integral indefinida. Técnicas elementales para el cálculo de primitivas.
 - La integral definida. Teoremas del valor medio y fundamental del cálculo integral. Aplicación al cálculo de áreas de regiones planas.
 
+[enlace a enunciados y solución  de evau](http://matematicasentumundo.es/PAU/Analisis_CNS.pdf). Atribución a Julio García
+
+
 ## Geometría (¿1,5 puntos?)
 
 - Vectores en el espacio tridimensional. Producto escalar, vectorial y mixto. Significado geométrico.
