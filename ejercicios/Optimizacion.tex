@@ -1,0 +1,102 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+        \usepackage{pgf}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{2º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Optimización de funciones}
+        \begin{document}
+        \begin{questions}
+        \question p31e13a38 - Problemas de optimización
+        \begin{multicols}{1}
+        \begin{parts} \part[1] 13. Descomponer el número 48 en dos sumandos tales que el quíntuplo del cuadrado del primero más el séxtuplo del
+cuadrado del segundo sea mínimo.  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  5 x^{2} + 6 \left(48 - x\right)^{2}\right]$ \\ $\left[ f'(x), \  22 x - 576\right]$ \\ $\left[ f''(x), \  22\right]$ \\Extremos relativos: \\ $\left[ MINIMO, \  x, \  \frac{288}{11}\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 14. Halla el número positivo cuya suma, con 4 veces su recíproco, sea mínima.  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  x + \frac{4}{x}\right]$ \\ $\left[ f'(x), \  1 - \frac{4}{x^{2}}\right]$ \\ $\left[ f''(x), \  \frac{8}{x^{3}}\right]$ \\Extremos relativos: \\ $\left[ MAXIMO, \  x, \  -2\right]$ \\ $\left[ MINIMO, \  x, \  2\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 15. Halla las dimensiones del rectángulo de área máxima inscrito en una circunferencia de 20 cm de radio.  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  x \sqrt{- x^{2} + 40^{2}}\right]$ \\ $\left[ f'(x), \  \frac{2 \left(800 - x^{2}\right)}{\sqrt{1600 - x^{2}}}\right]$ \\ $\left[ f''(x), \  \frac{2 x \left(x^{2} - 2400\right)}{\left(1600 - x^{2}\right)^{\frac{3}{2}}}\right]$ \\Extremos relativos: \\ $\left[ MINIMO, \  x, \  - 20 \sqrt{2}\right]$ \\ $\left[ MAXIMO, \  x, \  20 \sqrt{2}\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 16. Se considera una ventana rectangular en la que el lado superior ha sido sustituido por un triángulo equilátero. Sabiendo
+que el perímetro de la ventana es de 6,6 m, halla sus dimensiones para que su superficie sea máxima.  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  \frac{x \left(6.6 - 3 x\right)}{2} + \frac{x \sqrt{x^{2} - \frac{x^{2}}{4}}}{2}\right]$ \\ $\left[ f'(x), \  \frac{0.5 \sqrt{3} x^{2}}{\sqrt{x^{2}}} - 3.0 x + 3.3\right]$ \\ $\left[ f''(x), \  -3 - \frac{\sqrt{3} \sqrt{x^{2}}}{4 x} + \frac{3 \sqrt{3} \left(x^{2}\right)^{\frac{3}{2}}}{4 x^{3}}\right]$ \\Extremos relativos: \\ $\left[ MAXIMO, \  x, \  1.54641016151378\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 18. Una hoja de papel debe contener 18 cm 2 de texto impreso, márgenes superior e inferior de 2 cm de altura y márgenes
+laterales de 1 cm de anchura. Obtén, razonadamente, las dimensiones que minimizan la superficie de papel.  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  \left(4 + \frac{18}{x}\right) \left(x + 2\right)\right]$ \\ $\left[ f'(x), \  4 - \frac{36}{x^{2}}\right]$ \\ $\left[ f''(x), \  \frac{72}{x^{3}}\right]$ \\Extremos relativos: \\ $\left[ MAXIMO, \  x, \  -3\right]$ \\ $\left[ MINIMO, \  x, \  3\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 19. Halla las dimensiones de un depósito abierto superiormente en forma de prisma recto de base cuadrada, de 500 m 3 de
+capacidad y que tenga un revestimiento de coste mínimo.  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  x^{2} + \frac{4 \cdot 500 x}{x^{2}}\right]$ \\ $\left[ f'(x), \  2 x - \frac{2000}{x^{2}}\right]$ \\ $\left[ f''(x), \  2 + \frac{4000}{x^{3}}\right]$ \\Extremos relativos: \\ $\left[ MINIMO, \  x, \  10\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 20. Un triángulo isósceles, de perímetro 10 m, gira alrededor de la altura relativa al lado desigual engendrando un cono.
+Halla la longitud de sus lados para que el cono tenga volumen máximo.  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  \frac{\pi \left(\frac{x}{2}\right)^{2} \sqrt{- \frac{x^{2}}{4} + \left(\frac{10 - x}{2}\right)^{2}}}{3}\right]$ \\ $\left[ f'(x), \  - \frac{5 \sqrt{5} \pi x \left(x - 4\right)}{24 \sqrt{5 - x}}\right]$ \\ $\left[ f''(x), \  \frac{5 \sqrt{5} \pi \left(3 x^{2} - 24 x + 40\right)}{48 \left(5 - x\right)^{\frac{3}{2}}}\right]$ \\Extremos relativos: \\ $\left[ MINIMO, \  x, \  0\right]$ \\ $\left[ MAXIMO, \  x, \  4\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 21. Queremos vallar un campo rectangular que está junto a un camino. La valla del lado del camino cuesta 5 euros/m y la
+de los otros tres lados, 0,625 euros/m. Halla el área del campo de mayor superficie que podemos cercar con 1800 euros.  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  \frac{x \left(1800 - 5.625 x\right)}{0.625 \cdot 2}\right]$ \\ $\left[ f'(x), \  1440.0 - 9.0 x\right]$ \\ $\left[ f''(x), \  -9.0\right]$ \\Extremos relativos: \\ $\left[ MAXIMO, \  x, \  160.0\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 22. Los barriles que se utilizan para almacenar petróleo tienen forma cilíndrica y una capacidad de 160 litros. Halla las
+dimensiones del cilindro para que la cantidad de chapa empleada en su construcción sea mínima.  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  \pi x^{2} + \frac{2 \cdot 160 \pi x}{\pi x^{2}}\right]$ \\ $\left[ f'(x), \  2 \pi x - \frac{320}{x^{2}}\right]$ \\ $\left[ f''(x), \  2 \pi + \frac{640}{x^{3}}\right]$ \\Extremos relativos: \\ $\left[ MINIMO, \  x, \  \frac{2 \sqrt[3]{20}}{\sqrt[3]{\pi}}\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 33.- Entre todos los triángulos isósceles de perímetro 30 cm, ¿cuál es el de área máxima?
+  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  \frac{x \sqrt{- \frac{x^{2}}{4} + \left(\frac{30 - x}{2}\right)^{2}}}{2}\right]$ \\ $\left[ f'(x), \  - \frac{3 \sqrt{15} \left(x - 10\right)}{4 \sqrt{15 - x}}\right]$ \\ $\left[ f''(x), \  \frac{3 \sqrt{15} \left(x - 20\right)}{8 \left(15 - x\right)^{\frac{3}{2}}}\right]$ \\Extremos relativos: \\ $\left[ MAXIMO, \  x, \  10\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 34.- Se quiere construir un recipiente cónico de generatriz 10 cm y de capacidad máxima. ¿Cuál debe ser el radio de la base?
+  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  \frac{\pi x^{2} \sqrt{- x^{2} + 10^{2}}}{3}\right]$ \\ $\left[ f'(x), \  \frac{\pi x \left(200 - 3 x^{2}\right)}{3 \sqrt{100 - x^{2}}}\right]$ \\ $\left[ f''(x), \  \frac{2 \pi \left(3 x^{4} - 450 x^{2} + 10000\right)}{3 \left(100 - x^{2}\right)^{\frac{3}{2}}}\right]$ \\Extremos relativos: \\ $\left[ MINIMO, \  x, \  0\right]$ \\ $\left[ MAXIMO, \  x, \  - \frac{10 \sqrt{6}}{3}\right]$ \\ $\left[ MAXIMO, \  x, \  \frac{10 \sqrt{6}}{3}\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 35.- Con una lámina cuadrada de 10 dm de lado se quiere construir una caja sin tapa. Para ello, se recortan unos cuadrados
+de los vértices. Calcula el lado del cuadrado recortado para que el volumen de la caja sea máximo. Si la altura de la caja no
+puede pasar de 2 dm ¿cuál es la medida del lado del cuadrado que debemos recortar?
+  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  x \left(10 - 2 x\right)^{2}\right]$ \\ $\left[ f'(x), \  4 \left(x - 5\right) \left(3 x - 5\right)\right]$ \\ $\left[ f''(x), \  24 x - 80\right]$ \\Extremos relativos: \\ $\left[ MAXIMO, \  x, \  \frac{5}{3}\right]$ \\ $\left[ MINIMO, \  x, \  5\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 37.- Calcula la generatriz y el radio que debe tener un bote cilíndrico de leche condensada cuyo área total (incluyendo las
+dos tapas) es de 150 cm 2 para que su volumen sea máximo.
+  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  \frac{\pi x^{2} \left(150 - 2 \pi x^{2}\right)}{2 \pi x}\right]$ \\ $\left[ f'(x), \  - 3 \pi x^{2} + 75\right]$ \\ $\left[ f''(x), \  - 6 \pi x\right]$ \\Extremos relativos: \\ $\left[ MINIMO, \  x, \  - \frac{5}{\sqrt{\pi}}\right]$ \\ $\left[ MAXIMO, \  x, \  \frac{5}{\sqrt{\pi}}\right]$ \\\\ \\ \\  \\  \\   \end{solution} \part[1] 38.- Dos postes de 12 y 18 m de altura distan entre sí 30 m, Se desea tender un cable uniendo un punto del suelo entre los
+dos postes con los extremos de éstos. ¿Dónde hay que situar el punto del suelo para que la longitud total del cable sea
+mínima?
+  \begin{solution}   \\ Función a optimizar y derivadas: \\ $\left[ f(x), \  \sqrt{x^{2} + 12^{2}} + \sqrt{\left(30 - x\right)^{2} + 18^{2}}\right]$ \\ $\left[ f'(x), \  \frac{x}{\sqrt{\left(x - 30\right)^{2} + 324}} + \frac{x}{\sqrt{x^{2} + 144}} - \frac{30}{\sqrt{\left(x - 30\right)^{2} + 324}}\right]$ \\ $\left[ f''(x), \  - \frac{x^{2}}{\left(x^{2} + 144\right)^{\frac{3}{2}}} - \frac{\left(x - 30\right)^{2}}{\left(\left(x - 30\right)^{2} + 324\right)^{\frac{3}{2}}} + \frac{1}{\sqrt{\left(x - 30\right)^{2} + 324}} + \frac{1}{\sqrt{x^{2} + 144}}\right]$ \\Extremos relativos: \\ $\left[ MINIMO, \  x, \  12\right]$ \\\\ \\ \\  \\  \\   \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
