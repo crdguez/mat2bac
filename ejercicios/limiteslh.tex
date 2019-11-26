@@ -1,0 +1,98 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+        \usepackage{pgf}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{2º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Límites L`Hopital}
+        \begin{document}
+        \begin{questions}
+        \question p33e52 - Calcula los siguientes límites:
+
+        \begin{multicols}{3}
+        \begin{parts} \part[1] $\lim_{x \to 3}\left(\frac{x^{4} - 20 x - 21}{x^{2} + 11 x - 42}\right)$  \begin{solution}   $\frac{88}{17}$   \end{solution} \part[1] $\lim_{x \to \infty}\left(\frac{x^{3} - 7 x + 3}{- 5 x^{3} - x + 3}\right)$  \begin{solution}   $- \frac{1}{5}$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{\sin{\left(x \right)}}{x}\right)$  \begin{solution}   $1$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{e^{x} - 1}{x}\right)$  \begin{solution}   $1$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{1 - \cos{\left(x \right)}}{x^{2}}\right)$  \begin{solution}   $\frac{1}{2}$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{\frac{x^{2}}{6} - x + \sin{\left(x \right)}}{x^{3}}\right)$  \begin{solution}   $\infty$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{- \frac{x^{3}}{3} - x + \operatorname{atan}{\left(x \right)}}{x^{3}}\right)$  \begin{solution}   $- \frac{2}{3}$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{\left(x - \sin{\left(x \right)}\right) \sin{\left(x \right)}}{x}\right)$  \begin{solution}   $0$   \end{solution} \part[1] $\lim_{x \to 0}\left(- \frac{1}{\sin{\left(x \right)}} + \frac{1}{x}\right)$  \begin{solution}   $0$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{\frac{1}{\log{\left(10 \right)}} \log{\left(\frac{\sin{\left(x \right)}}{x} \right)}}{x}\right)$  \begin{solution}   $0$   \end{solution} \part[1] $\lim_{x \to \infty} \left(1 - e^{- x}\right)^{x^{2}}$  \begin{solution}   $1$   \end{solution} \part[1] $\lim_{x \to 0} \cos^{\frac{3}{x^{2}}}{\left(2 x \right)}$  \begin{solution}   $e^{-6}$   \end{solution} \part[1] $\lim_{x \to 1} \tan^{\tan{\left(\frac{\pi x}{2} \right)}}{\left(\frac{\pi x}{4} \right)}$  \begin{solution}   $e^{-1}$   \end{solution} \part[1] $\lim_{x \to 1} x^{\frac{1}{1 - x}}$  \begin{solution}   $e^{-1}$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{\frac{1}{\log{\left(10 \right)}} \log{\left(\frac{\tan{\left(x \right)}}{x} \right)}}{x}\right)$  \begin{solution}   $0$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question p33e53 - Calcula los siguientes límites:
+
+        \begin{multicols}{3}
+        \begin{parts} \part[1] $\lim_{x \to 0}\left(\frac{\log{\left(e^{x} + x^{3} \right)}}{x}\right)$  \begin{solution}   $1$   \end{solution} \part[1] $\lim_{x \to 0}\left(\left(1 + \frac{1}{x}\right)^{\frac{1}{2}} - \left(1 + \frac{4}{x}\right)^{\frac{1}{2}}\right)$  \begin{solution}   $-\infty$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{a^{x} - b^{x}}{x}\right)$  \begin{solution}   $\log{\left(a \right)} - \log{\left(b \right)}$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{\log{\left(\cos{\left(3 x \right)} \right)}}{x^{2}}\right)$  \begin{solution}   $- \frac{9}{2}$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{\sin{\left(x \right)} - \cos{\left(x \right)}}{1 - \cos{\left(x \right)}}\right)$  \begin{solution}   $-\infty$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{\log{\left(x + 1 \right)}}{\sqrt[4]{x^{3}}}\right)$  \begin{solution}   $0$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{2 \left(\sin{\left(x \right)} + \cos{\left(x \right)}\right)}{x}\right)$  \begin{solution}   $\infty$   \end{solution} \part[1] $\lim_{x \to \infty}\left(\frac{\log{\left(\frac{x + 1}{x} \right)}}{\frac{1}{x}}\right)$  \begin{solution}   $1$   \end{solution} \part[1] $\lim_{x \to -1}\left(\frac{x^{3} + 1}{x^{2} - 3 x + 4}\right)$  \begin{solution}   $0$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{x - \sin{\left(x \right)}}{- x + \tan{\left(x \right)}}\right)$  \begin{solution}   $\frac{1}{2}$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{1 - \cos{\left(x \right)}}{\sin{\left(x \right)} + \cos{\left(x \right)}}\right)$  \begin{solution}   $0$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question p33e54 - Calcula los siguientes límites:
+
+        \begin{multicols}{3}
+        \begin{parts} \part[1] $\lim_{x \to \frac{\pi}{2}}\left(\log{\left(\tan{\left(x \right)} \right)} \cos{\left(x \right)}\right)$  \begin{solution}   $0$   \end{solution} \part[1] $\lim_{x \to 0} \left(\sin{\left(x \right)} + \cos{\left(x \right)}\right)^{\frac{1}{x}}$  \begin{solution}   $e$   \end{solution} \part[1] $\lim_{x \to \frac{\pi}{2}} \tan^{\cos{\left(x \right)}}{\left(x \right)}$  \begin{solution}   $1$   \end{solution} \part[1] $\lim_{x \to 0} \left(e^{x} + x^{3}\right)^{\frac{1}{x}}$  \begin{solution}   $e$   \end{solution} \part[1] $\lim_{x \to 0}\left(\left(e^{\sin{\left(x \right)}} - 1\right) \tan{\left(x + \frac{\pi}{2} \right)}\right)$  \begin{solution}   $-1$   \end{solution} \part[1] $\lim_{x \to \infty} \left(x + 1\right)^{x}$  \begin{solution}   $\infty$   \end{solution} \part[1] $\lim_{x \to \infty}\left(x \log{\left(\frac{x + 1}{x} \right)}\right)$  \begin{solution}   $1$   \end{solution} \part[1] $\lim_{x \to 0} \left(1 - \sin{\left(2 x \right)}\right)^{\cot{\left(3 x \right)}}$  \begin{solution}   $e^{- \frac{2}{3}}$   \end{solution} \part[1] $\lim_{x \to 0} \left(\frac{1}{x}\right)^{\tan{\left(x \right)}}$  \begin{solution}   $1$   \end{solution} \part[1] $\lim_{x \to \infty}\left(- x + \sqrt{x^{2} + x + 2}\right)$  \begin{solution}   $\frac{1}{2}$   \end{solution} \part[1] $\lim_{x \to \frac{\pi}{2}} \tan^{\frac{1}{\cos{\left(2 x \right)}}}{\left(x \right)}$  \begin{solution}   $0$   \end{solution} \part[1] $\lim_{x \to 0} \cot^{\sin{\left(x \right)}}{\left(x \right)}$  \begin{solution}   $1$   \end{solution} \part[1] $\lim_{x \to 0}\left(5 \sqrt{1 - \cos{\left(x \right)}} \cot{\left(\frac{x}{2} \right)}\right)$  \begin{solution}   $5 \sqrt{2}$   \end{solution} \part[1] $\lim_{x \to 0}\left(\frac{\left(x + 1\right) \left(\cot^{2}{\left(x \right)} + 1\right)}{x^{2} + x + 1}\right)$  \begin{solution}   $\infty$   \end{solution} \part[1] $\lim_{x \to \frac{\pi}{2}}\left(\frac{1}{\cos{\left(2 x \right)}} - \frac{\tan{\left(x \right)}}{1 - \frac{4 x}{\pi}}\right)$  \begin{solution}   $-\infty$   \end{solution} \part[1] $\lim_{x \to 0}\left(\left(1 - \cos{\left(x \right)}\right) \cot{\left(x \right)}\right)$  \begin{solution}   $0$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
