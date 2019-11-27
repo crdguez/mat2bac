@@ -1,0 +1,86 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+        \usepackage{pgf}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{2º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Integral indefinida}
+        \begin{document}
+        \begin{questions}
+        \question p38e01 - Calcula los siguientes límites:
+
+        \begin{multicols}{3}
+        \begin{parts} \part[1] $\int 4 x^{6}\cdot dx$  \begin{solution}   $\frac{4 x^{7}}{7} + K $   \end{solution} \part[1] $\int 6 x^{3} + 8 x^{2} + 3\cdot dx$  \begin{solution}   $\frac{3 x^{4}}{2} + \frac{8 x^{3}}{3} + 3 x + K $   \end{solution} \part[1] $\int \sqrt{2} \sqrt{x}\cdot dx$  \begin{solution}   $\frac{2 \sqrt{2} x^{\frac{3}{2}}}{3} + K $   \end{solution} \part[1] $\int \frac{1}{\sqrt[5]{x}}\cdot dx$  \begin{solution}   $\frac{5 x^{\frac{4}{5}}}{4} + K $   \end{solution} \part[1] $\int \frac{\sqrt[3]{5} \sqrt[3]{x^{2}} + \sqrt{3} \sqrt{x^{3}}}{\sqrt{2} \sqrt{x}}\cdot dx$  \begin{solution}   $\frac{\sqrt{2} \left(\frac{6 \sqrt[3]{5} \sqrt{x} \sqrt[3]{x^{2}}}{7} + \frac{\sqrt{3} \sqrt{x} \sqrt{x^{3}}}{2}\right)}{2} + K $   \end{solution} \part[1] $\int \frac{1}{x - 1}\cdot dx$  \begin{solution}   $\log{\left(x - 1 \right)} + K $   \end{solution} \part[1] $\int \frac{5}{4 x^{2} + 1}\cdot dx$  \begin{solution}   $\frac{5 \operatorname{atan}{\left(2 x \right)}}{2} + K $   \end{solution} \part[1] $\int \frac{2}{9 x^{2} + 1}\cdot dx$  \begin{solution}   $\frac{2 \operatorname{atan}{\left(3 x \right)}}{3} + K $   \end{solution} \part[1] $\int \frac{1}{1 - 4 x^{2}}\cdot dx$  \begin{solution}   $- \frac{\log{\left(x - \frac{1}{2} \right)}}{4} + \frac{\log{\left(x + \frac{1}{2} \right)}}{4} + K $   \end{solution} \part[1] $\int \frac{1}{x^{2} + 4}\cdot dx$  \begin{solution}   $\frac{\operatorname{atan}{\left(\frac{x}{2} \right)}}{2} + K $   \end{solution} \part[1] $\int \frac{2 x - 3}{x^{2} - 3 x + 9}\cdot dx$  \begin{solution}   $\log{\left(x^{2} - 3 x + 9 \right)} + K $   \end{solution} \part[1] $\int 2 e^{x^{2}} x\cdot dx$  \begin{solution}   $e^{x^{2}} + K $   \end{solution} \part[1] $\int \frac{1}{x - 4}\cdot dx$  \begin{solution}   $\log{\left(x - 4 \right)} + K $   \end{solution} \part[1] $\int \frac{1}{\left(x - 4\right)^{3}}\cdot dx$  \begin{solution}   $- \frac{1}{2 x^{2} - 16 x + 32} + K $   \end{solution} \part[1] $\int e^{5 x}\cdot dx$  \begin{solution}   $\frac{e^{5 x}}{5} + K $   \end{solution} \part[1] $\int \frac{\sqrt{x} + x}{x^{2}}\cdot dx$  \begin{solution}   $\log{\left(x \right)} - \frac{2}{\sqrt{x}} + K $   \end{solution} \part[1] $\int \frac{\log{\left(x \right)}^{3}}{x}\cdot dx$  \begin{solution}   $\frac{\log{\left(x \right)}^{4}}{4} + K $   \end{solution} \part[1] $\int \frac{\sin{\left(\sqrt{x} \right)}}{\sqrt{x}}\cdot dx$  \begin{solution}   $- 2 \cos{\left(\sqrt{x} \right)} + K $   \end{solution} \part[1] $\int e^{9 + \left(-2\right) x}\cdot dx$  \begin{solution}   $- \frac{e^{9 - 2 x}}{2} + K $   \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
