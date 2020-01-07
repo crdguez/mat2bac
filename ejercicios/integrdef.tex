@@ -1,0 +1,86 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+        \usepackage{pgf}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{2º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Integral definida}
+        \begin{document}
+        \begin{questions}
+        \question p43e03 - Utiliza la regla de Barrow para calcular :
+
+        \begin{multicols}{2}
+        \begin{parts} \part[1] $\int_{0}^{3} \left(3 x^{2} - 6\right)\, dx$  \begin{solution}   $9 \ (F(x)=x^{3} - 6 x)$   \end{solution} \part[1] $\int_{1}^{2} \frac{1}{x}\, dx$  \begin{solution}   $\log{\left (2 \right )} \ (F(x)=\log{\left (x \right )})$   \end{solution} \part[1] $\int_{0}^{1} \frac{5}{7 x^{2} + 7}\, dx$  \begin{solution}   $\frac{5 \pi}{28} \ (F(x)=\frac{5 \operatorname{atan}{\left (x \right )}}{7})$   \end{solution} \part[1] $\int_{2}^{3} \frac{1}{x \log{\left (x \right )}}\, dx$  \begin{solution}   $\log{\left (\frac{\log{\left (3 \right )}}{\log{\left (2 \right )}} \right )} \ (F(x)=\log{\left (\log{\left (x \right )} \right )})$   \end{solution} \part[1] $\int_{\frac{\pi}{2}}^{2 \pi} \sin^{5}{\left (x \right )} \cos{\left (x \right )}\, dx$  \begin{solution}   $- \frac{1}{6} \ (F(x)=\frac{\sin^{6}{\left (x \right )}}{6})$   \end{solution} \part[1] $\int_{2}^{5} e^{x} x\, dx$  \begin{solution}   $- e^{2} + 4 e^{5} \ (F(x)=\left(x - 1\right) e^{x})$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
