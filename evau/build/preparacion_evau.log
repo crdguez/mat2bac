@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.5)  9 JAN 2020 07:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.5)  27 JAN 2020 07:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1478,7 +1478,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 116.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 116.
-<attribution-share-alike-creative-commons-license.png, id=31, 404.51125pt x 170
+<attribution-share-alike-creative-commons-license.png, id=35, 404.51125pt x 170
 .6375pt>
 File: attribution-share-alike-creative-commons-license.png Graphic file (type p
 ng)
@@ -1496,12 +1496,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-<qr_ejercicios_evau.png, id=48, 331.2375pt x 331.2375pt>
+<qr_ejercicios_evau.png, id=52, 331.2375pt x 331.2375pt>
 File: qr_ejercicios_evau.png Graphic file (type png)
 <use qr_ejercicios_evau.png>
 Package pdftex.def Info: qr_ejercicios_evau.png  used on input line 144.
 (pdftex.def)             Requested size: 198.74402pt x 198.74402pt.
-<preparacion_analisis.pdf, id=49, 597.432pt x 845.07718pt>
+<preparacion_analisis.pdf, id=53, 597.432pt x 845.07718pt>
 File: preparacion_analisis.pdf Graphic file (type pdf)
 <use preparacion_analisis.pdf>
 Package pdftex.def Info: preparacion_analisis.pdf  used on input line 151.
@@ -1510,7 +1510,7 @@ File: preparacion_analisis.pdf Graphic file (type pdf)
 <use preparacion_analisis.pdf>
 Package pdftex.def Info: preparacion_analisis.pdf  used on input line 151.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<preparacion_analisis.pdf, id=52, page=1, 597.432pt x 845.07718pt>
+<preparacion_analisis.pdf, id=56, page=1, 597.432pt x 845.07718pt>
 File: preparacion_analisis.pdf Graphic file (type pdf)
 <use preparacion_analisis.pdf, page 1>
 Package pdftex.def Info: preparacion_analisis.pdf , page1 used on input line 15
@@ -1538,7 +1538,7 @@ Package pdftex.def Info: preparacion_analisis.pdf , page1 used on input line 15
 1.
 (pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
  [6 <./preparacion_analisis.pdf>]
-<preparacion_analisis.pdf, id=126, page=2, 597.432pt x 845.07718pt>
+<preparacion_analisis.pdf, id=128, page=2, 597.432pt x 845.07718pt>
 File: preparacion_analisis.pdf Graphic file (type pdf)
 <use preparacion_analisis.pdf, page 2>
 Package pdftex.def Info: preparacion_analisis.pdf , page2 used on input line 15
@@ -1555,7 +1555,7 @@ Package pdftex.def Info: preparacion_analisis.pdf , page2 used on input line 15
 1.
 (pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
  [7 <./preparacion_analisis.pdf>]
-<preparacion_analisis.pdf, id=189, page=3, 597.432pt x 845.07718pt>
+<preparacion_analisis.pdf, id=179, page=3, 597.432pt x 845.07718pt>
 File: preparacion_analisis.pdf Graphic file (type pdf)
 <use preparacion_analisis.pdf, page 3>
 Package pdftex.def Info: preparacion_analisis.pdf , page3 used on input line 15
@@ -1572,7 +1572,7 @@ Package pdftex.def Info: preparacion_analisis.pdf , page3 used on input line 15
 1.
 (pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
  [8 <./preparacion_analisis.pdf>]
-<preparacion_analisis.pdf, id=251, page=4, 597.432pt x 845.07718pt>
+<preparacion_analisis.pdf, id=227, page=4, 597.432pt x 845.07718pt>
 File: preparacion_analisis.pdf Graphic file (type pdf)
 <use preparacion_analisis.pdf, page 4>
 Package pdftex.def Info: preparacion_analisis.pdf , page4 used on input line 15
@@ -1589,7 +1589,7 @@ Package pdftex.def Info: preparacion_analisis.pdf , page4 used on input line 15
 1.
 (pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
  [9 <./preparacion_analisis.pdf>]
-<preparacion_analisis.pdf, id=320, page=5, 597.432pt x 845.07718pt>
+<preparacion_analisis.pdf, id=289, page=5, 597.432pt x 845.07718pt>
 File: preparacion_analisis.pdf Graphic file (type pdf)
 <use preparacion_analisis.pdf, page 5>
 Package pdftex.def Info: preparacion_analisis.pdf , page5 used on input line 15
@@ -1606,7 +1606,7 @@ Package pdftex.def Info: preparacion_analisis.pdf , page5 used on input line 15
 1.
 (pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
  [10 <./preparacion_analisis.pdf>]
-<preparacion_analisis.pdf, id=383, page=6, 597.432pt x 845.07718pt>
+<preparacion_analisis.pdf, id=338, page=6, 597.432pt x 845.07718pt>
 File: preparacion_analisis.pdf Graphic file (type pdf)
 <use preparacion_analisis.pdf, page 6>
 Package pdftex.def Info: preparacion_analisis.pdf , page6 used on input line 15
@@ -1623,7 +1623,7 @@ Package pdftex.def Info: preparacion_analisis.pdf , page6 used on input line 15
 1.
 (pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
  [11 <./preparacion_analisis.pdf>]
-<preparacion_analisis.pdf, id=429, page=7, 597.432pt x 845.07718pt>
+<preparacion_analisis.pdf, id=377, page=7, 597.432pt x 845.07718pt>
 File: preparacion_analisis.pdf Graphic file (type pdf)
 <use preparacion_analisis.pdf, page 7>
 Package pdftex.def Info: preparacion_analisis.pdf , page7 used on input line 15
@@ -1641,7 +1641,7 @@ Package pdftex.def Info: preparacion_analisis.pdf , page7 used on input line 15
 (pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
 
 [12 <./preparacion_analisis.pdf>]
-<preparacion_analisis.pdf, id=498, page=8, 597.432pt x 845.07718pt>
+<preparacion_analisis.pdf, id=439, page=8, 597.432pt x 845.07718pt>
 File: preparacion_analisis.pdf Graphic file (type pdf)
 <use preparacion_analisis.pdf, page 8>
 Package pdftex.def Info: preparacion_analisis.pdf , page8 used on input line 15
@@ -1658,24 +1658,112 @@ Package pdftex.def Info: preparacion_analisis.pdf , page8 used on input line 15
 1.
 (pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
  [13 <./preparacion_analisis.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
+ [14
 
-(build/preparacion_evau.aux
+]
+ 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+File: qr_ejercicios_evau.png Graphic file (type png)
+<use qr_ejercicios_evau.png>
+Package pdftex.def Info: qr_ejercicios_evau.png  used on input line 160.
+(pdftex.def)             Requested size: 198.74402pt x 198.74402pt.
+<preparacion_prob.pdf, id=484, 597.432pt x 845.07718pt>
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf>
+Package pdftex.def Info: preparacion_prob.pdf  used on input line 167.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf>
+Package pdftex.def Info: preparacion_prob.pdf  used on input line 167.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+<preparacion_prob.pdf, id=487, page=1, 597.432pt x 845.07718pt>
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 1>
+Package pdftex.def Info: preparacion_prob.pdf , page1 used on input line 167.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 1>
+Package pdftex.def Info: preparacion_prob.pdf , page1 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+[15]
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 1>
+Package pdftex.def Info: preparacion_prob.pdf , page1 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 1>
+Package pdftex.def Info: preparacion_prob.pdf , page1 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 1>
+Package pdftex.def Info: preparacion_prob.pdf , page1 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+ [16 <./preparacion_prob.pdf>]
+<preparacion_prob.pdf, id=527, page=2, 597.432pt x 845.07718pt>
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 2>
+Package pdftex.def Info: preparacion_prob.pdf , page2 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 2>
+Package pdftex.def Info: preparacion_prob.pdf , page2 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 2>
+Package pdftex.def Info: preparacion_prob.pdf , page2 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+ [17 <./preparacion_prob.pdf>]
+<preparacion_prob.pdf, id=538, page=3, 597.432pt x 845.07718pt>
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 3>
+Package pdftex.def Info: preparacion_prob.pdf , page3 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 3>
+Package pdftex.def Info: preparacion_prob.pdf , page3 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 3>
+Package pdftex.def Info: preparacion_prob.pdf , page3 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+ [18 <./preparacion_prob.pdf>]
+<preparacion_prob.pdf, id=561, page=4, 597.432pt x 845.07718pt>
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 4>
+Package pdftex.def Info: preparacion_prob.pdf , page4 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 4>
+Package pdftex.def Info: preparacion_prob.pdf , page4 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+File: preparacion_prob.pdf Graphic file (type pdf)
+<use preparacion_prob.pdf, page 4>
+Package pdftex.def Info: preparacion_prob.pdf , page4 used on input line 167.
+(pdftex.def)             Requested size: 537.68384pt x 760.56244pt.
+ [19 <./preparacion_prob.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+ (build/preparacion_evau.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `preparacion_evau.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 31113 strings out of 494747
- 744223 string characters out of 6176208
+ 31141 strings out of 494747
+ 744921 string characters out of 6176208
  951564 words of memory out of 5000000
- 33839 multiletter control sequences out of 15000+600000
+ 33857 multiletter control sequences out of 15000+600000
  96966 words of font info for 86 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
  69i,19n,119p,737b,749s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1687,11 +1775,12 @@ mf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on build/preparacion_evau.pdf (13 pages, 3097217 bytes).
+ic/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmtt9.pfb>
+Output written on build/preparacion_evau.pdf (19 pages, 3425418 bytes).
 PDF statistics:
- 594 PDF objects out of 1000 (max. 8388607)
- 301 compressed objects within 4 object streams
- 17 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 622 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
