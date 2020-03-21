@@ -144,8 +144,8 @@ def doc_ejer(title="", tipo = 'ejercicios', letra = 'A', soluciones = False):
 
         \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
 
-        \newcommand{\class}{2º Bachillerato}
-        \newcommand{\examdat}{\today}
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
 
         %\newcommand{\tipo}{A}
 
